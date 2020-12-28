@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Privacy Policy
+## Last updated: December 27, 2020</p>
+- Matthew Benchimol (us, we, or our) is the developer of Cydog Browser (the Service).
+- This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.
+- We will not use or share your information with anyone except as described in this Privacy Policy.
+- **We do not use your Personal Information for providing, improving, or facilitating the Service.**
 
-You can use the [editor on GitHub](https://github.com/mdbench/CydogBrowser/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Links To Other Sites
+- Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+- We have no control over, and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Children's Privacy
+- Our Service does not address anyone under the age of 18 (Children).
+- We do not knowingly collect personally identifiable information from children under 18. If you are a parent or guardian and you are aware that your child has provided us with Personal Information, please contact us. If we discover that a child under 18 has provided us with Personal Information, we will delete such information from our servers immediately.
 
-### Markdown
+## Compliance With Laws
+- We will disclose your Personal Information where required to do so by law or subpoena. **That said, we have no information to disclose.**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Changes To This Privacy Policy
+- We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+- You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mdbench/CydogBrowser/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contact Us
+If you have any questions about this Privacy Policy, please contact me through my website at matthewbenchimol.com/home/contact-me/.
