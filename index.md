@@ -1,5 +1,5 @@
 # Privacy Policy
-## Last updated: December 27, 2020</p>
+## Last updated: December 27, 2020
 - Matthew Benchimol (us, we, or our) is the developer of Cydog Browser (the Service).
 - This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.
 - We will not use or share your information with anyone except as described in this Privacy Policy.
