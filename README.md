@@ -4,6 +4,8 @@ A Lightweight, fast, and secure browser for the minimalist trying to get things 
 ### Available as a mobile application here:
 
 - [Google Play](https://play.google.com/store/apps/details?id=com.matthewbenchimol.cydogbrowser)
+- [Amazon Store](https://www.amazon.com/Curated-News-Cydog-Browser/dp/B091G1XPBW/ref=sr_1_1?dchild=1&keywords=Cydog+browser&qid=1618622687&s=mobile-apps&sr=1-1)
+- [iOS, iPad, and MacBook](https://apps.apple.com/us/app/cydog-browser/id1563014942?mt=12)
 - [Our Website](https://cydogbrowser.com)
 
 ### Features
