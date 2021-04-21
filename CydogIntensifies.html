@@ -1,0 +1,76 @@
+<!--
+   CydogIntensifies.html
+   Author: Matthew Benchimol
+   Author URI: https://matthewbenchimol.com/
+   Author Github URI: https://www.github.com/mdbench
+   Project Repository URI: https://github.com/mdbench/CydogBrowser
+   Description: This is an aggregated, random search engine. It is used in the Intensifies feature available on Cydog Browser for Android      and iOS. It was ported to a website in order to increase adoption without limiting those who do not use the Cydog platform. 
+   License: MIT
+-->
+
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<link rel="stylesheet" type="text/css" media="screen" href="CydogIntensifiesCSS.css" />
+
+<script>
+<!--
+/*
+Random link button- By JavaScript Kit (http://javascriptkit.com)
+Over 300+ free scripts!
+This credit MUST stay intact for use
+*/
+-->
+
+   var randomlinks=new Array()
+
+    randomlinks[0]="https://duckduckgo.com/?q="
+    randomlinks[1]="https://www.startpage.com/do/dsearch?query="
+    randomlinks[2]="https://dogpile.com/serp?q="
+    randomlinks[3]="https://google.com/search?q="
+    randomlinks[4]="https://metager.org/meta/meta.ger3?eingabe="
+    randomlinks[5]="https://bing.com/search?q="
+    randomlinks[6]="https://search.yahoo.com/search?p="
+    randomlinks[7]="https://www.ecosia.org/search?q="
+    
+
+    function randomlink(link){
+    window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]+link;
+    }
+
+   </script> 
+
+</head>
+
+<div style="margin: 10px">
+
+<center>
+<img src="cydogbrowserintensifies.png" alt="Cydog" width="400" height="400">
+</center>
+
+<!--
+The implementation of the above code towards a javascript search engine specific solution was asked by me and answered on Stack Overflow.
+Source of question: https://stackoverflow.com/questions/67098879/trying-to-create-a-random-query-based-search-engine-in-javascript-but-im-stuck
+Answered by Zazz: https://stackoverflow.com/users/15160601/zazz
+-->
+
+ <div class="search-wrapper ">
+     <div class="input-holder ">
+     <center>
+        <form id="bar" role="search" method="GET" class="search-form" action="javascript:randomlink(document.getElementById('intense').value)">
+        <input type="text" class="search-input" id="intense"/>
+        <input type="submit" style="background-color: black; color: white;"/>
+        </form>
+     </center>
+     </div>
+    </div>
+
+<!--
+To all those that contributed directly or indirectly to my random search creation: Thank you for making code more available instead of keeping it all to yourself. Making the world a better place with code is what Cydog Browser is all about. To those who actually take the time to read these comments, you rock. 
+-->
+
+</html>
