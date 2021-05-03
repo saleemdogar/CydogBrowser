@@ -8,6 +8,8 @@ A Lightweight, fast, and secure browser for the minimalist trying to get things 
 - [iOS, iPad, and MacBook](https://apps.apple.com/us/app/cydog-browser/id1563014942?mt=12)
 - [Our Website](https://cydogbrowser.com)
 - [New 🚀: Cydog Intensifies](https://cydogbrowser.com/CydogIntensifies.html)
+- [New 🚀: Cydog Toolkit for Firefox](https://addons.mozilla.org/en-US/firefox/addon/cydog-toolkit/)
+- [New 🚀: Cydog Toolkit for Safari](https://apps.apple.com/us/app/cydog-toolkit/id1564679714?mt=12)
 
 ### Features
 
