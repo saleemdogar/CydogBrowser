@@ -10,6 +10,7 @@ A Lightweight, fast, and secure browser for the minimalist trying to get things 
 - [New 🚀: Cydog Intensifies](https://cydogbrowser.com/CydogIntensifies.html)
 - [New 🚀: Cydog Toolkit for Firefox](https://addons.mozilla.org/en-US/firefox/addon/cydog-toolkit/)
 - [New 🚀: Cydog Toolkit for Safari](https://apps.apple.com/us/app/cydog-toolkit/id1564679714?mt=12)
+- [New 🚀: Cydog Toolkit for Chrome](https://chrome.google.com/webstore/detail/cydog-toolkit/ibhpnkdhocnpbfdbgdihikhapmigokdn?utm_source=chrome-ntp-icon)
 
 ### Features
 
