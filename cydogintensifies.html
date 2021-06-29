@@ -4,8 +4,8 @@
    Author URI: https://matthewbenchimol.com/
    Author Github URI: https://www.github.com/mdbench
    Project Repository URI: https://github.com/mdbench/CydogBrowser
-   Description: This is an aggregated, random search engine. It is used in the Intensifies feature available on Cydog Browser for Android      and iOS. It was ported to a website in order to increase adoption without limiting those who do not use the Cydog platform. 
-   License: MIT
+   Description: This is an aggregated, random search engine. It is used in the Intensifies feature available on Cydog Browser for Android and iOS. It was ported to a website in order to increase adoption without limiting those who do not use the Cydog Browser platform. The goal with this search bar is to bring innovation to the search space through open source, non-commericial means.
+   License: CC BY-NC-SA 4.0
 -->
 
 <!DOCTYPE html>
@@ -14,11 +14,17 @@
 <head>
 <meta charset="UTF-8">
 
-<title>Cydog Intensifies</title>
-<link rel="shortcut icon" type="image/jpg" href="cydogbrowserintensifies.png"/>
-
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
-<link rel="stylesheet" type="text/css" media="screen" href="cydogintensifiesCSS.css" />
+
+<link href="Intensifies/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<style>
+    @font-face { font-family: changa; src: url(Intensifies/changa.ttf); }
+    body { font-family: changa; }
+</style>
+
+<script src="Intensifies/bootstrap.min.js"></script>
+<script src="Intensifies/jquery-1.11.1.min.js"></script>
 
 <script>
 <!--
@@ -32,48 +38,70 @@ This credit MUST stay intact for use
    var randomlinks=new Array()
 
     randomlinks[0]="https://duckduckgo.com/?q="
-    randomlinks[1]="https://www.startpage.com/do/dsearch?query="
+    randomlinks[1]="https://search.brave.com/search?q="
     randomlinks[2]="https://dogpile.com/serp?q="
     randomlinks[3]="https://google.com/search?q="
-    randomlinks[4]="https://metager.org/meta/meta.ger3?eingabe="
+    randomlinks[4]="https://search.yahoo.com/search?p="
     randomlinks[5]="https://bing.com/search?q="
-    randomlinks[6]="https://search.yahoo.com/search?p="
-    randomlinks[7]="https://www.ecosia.org/search?q="
+    randomlinks[6]="https://www.ecosia.org/search?q="
+    randomlinks[7]="https://www.startpage.com/do/dsearch?query="
     
-
     function randomlink(link){
     window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]+link;
     }
 
-   </script> 
+   </script>
 
 </head>
 
-<div style="margin: 10px">
+<body style="background-color:#2663d1; color:#101010;" onbeforecopy = "return false"
+    ondragstart = "return false"
+    onselectstart = "return false"
+    oncontextmenu = "return false"
+    onselect = "document.selection.empty()"
+    oncopy = "document.selection.empty()">
 
-<center>
-<img src="cydogbrowserintensifies.png" alt="Cydog" width="400" height="400">
-</center>
+<div class="container" style="margin-top: 8%;">
+<div class="col-md-6 col-md-offset-3">
+<div class="row">
+<div id="logo" class="text-center">
+<h1>Cydog Intensifies</h1><p>privacy through intense randomization</p>
+</div>
 
 <!--
 The implementation of the above code towards a javascript search engine specific solution was asked by me and answered on Stack Overflow.
 Source of question: https://stackoverflow.com/questions/67098879/trying-to-create-a-random-query-based-search-engine-in-javascript-but-im-stuck
 Answered by Zazz: https://stackoverflow.com/users/15160601/zazz
+
+The implementation of the above and below code towards a dynamic javascript search bar was taken from free source code on bootsnipp.com.
+Source of code: https://bootsnipp.com/snippets/m13mN
+Creator of code is AFelix: https://bootsnipp.com/afelix
+License: https://bootsnipp.com/license
 -->
 
- <div class="search-wrapper ">
-     <div class="input-holder ">
-     <center>
-        <form id="bar" role="search" method="GET" class="search-form" action="javascript:randomlink(document.getElementById('intense').value)">
-        <input type="text" class="search-input" id="intense"/>
-        <input type="submit" style="background-color: black; color: white;"/>
-        </form>
-     </center>
-     </div>
-    </div>
+<form role="form" id="form-buscar" method="GET" action="javascript:randomlink(document.getElementById('1').value)">
+<div class="form-group">
+<div class="input-group">
+<input id="1" class="form-control" type="text" name="search" placeholder="Search with Cydog..." required/>
+<span class="input-group-btn">
+<button class="btn btn-success" type="submit" style="background-color: black; color: white;">Submit
+</button>
+</span>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+<center>
+<img src="Intensifies/cydogbrowserintensifies.png" alt="Cydog" width="225" height="225">
+</center>
+
+</body>
 
 <!--
-To all those that contributed directly or indirectly to my random search creation: Thank you for making code more available instead of keeping it all to yourself. Making the world a better place with code is what Cydog Browser is all about. To those who actually take the time to read these comments, you rock. 
+To all those that contributed directly (albeit indirectly) or indirectly (through inspiration) to my random search creation: Thank you for making code more available instead of keeping it all to yourself. Making the world a better place with code is what Cydog Browser is all about. To those who actually take the time to read these comments, you rock. 
 -->
 
 </html>

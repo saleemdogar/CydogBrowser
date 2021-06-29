@@ -13,7 +13,7 @@ A Lightweight, fast, and secure browser for the minimalist trying to get things 
 
 ### Features
 
-![Cydog3](https://play-lh.googleusercontent.com/-DBo0BoJ_c38zWw2i9x5hLityX9y20PjzgwPLAMswHNvM6rPgJpdO_xy90lDX82A0g=w786-h440-rw)
+![Cydog3](https://play-lh.googleusercontent.com/YwzVOVN-hRSlqEAvDo5lCJnAh5x0lbEbWIuVsHGm9BQD7rBJyEBkG5zBLou32CyZKA=w1366-h590)
 
 ### Description
 
