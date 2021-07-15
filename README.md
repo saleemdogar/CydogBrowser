@@ -1,7 +1,9 @@
 # CydogBrowser
 A Lightweight, fast, and secure browser for the minimalist trying to get things done.
 
-### Available as a mobile application here:
+![Cydog3](https://is3-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/aa/a7/29/aaa72948-9c57-7027-07c8-48d9e8733b31/2ec186bb-5e2f-4280-b029-cdbef30c8be1_macbook0.png/643x0w.png)
+
+### Available as an application or browser extension here:
 
 - [Google Play](https://play.google.com/store/apps/details?id=com.matthewbenchimol.cydogbrowser)
 - [Amazon Store](https://www.amazon.com/Curated-News-Cydog-Browser/dp/B091G1XPBW/ref=sr_1_1?dchild=1&keywords=Cydog+browser&qid=1618622687&s=mobile-apps&sr=1-1)
