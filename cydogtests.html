@@ -1,0 +1,150 @@
+<html>
+
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Cydog Tests - Get information about your browser</title>
+        <link rel="shortcut icon" type="image/jpg" href="image/logo.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <noscript><meta http-equiv="refresh" content="1;url=errornojs.html"></noscript>
+    <style>
+        @font-face { font-family: changa; src: url(Tests/changa.ttf); }
+        body { font-family: changa; }
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+function myFunction(val, event) {
+  var inp = document.createElement('input');
+  document.body.appendChild(inp)
+  inp.value = val;
+  inp.select();
+  document.execCommand('copy', false);
+  inp.remove();
+}
+</script>
+</head>  
+    
+<body style="background-color:#2663d1; color:#101010;" onbeforecopy = "return false"
+    ondragstart = "return false"
+    onselectstart = "return false"
+    oncontextmenu = "return false"
+    onselect = "document.selection.empty()"
+    oncopy = "document.selection.empty()">
+    
+<center>
+    <form name="output" style="background-color:#2663d1; color:#FFFFFF;" readonly="readonly" word-wrap="break-word;">
+        <table border="0">
+            <tr>
+                <td>
+                    <img src="Tests/cydogtests.png" alt="Cydog Tests" width="138" height="150"></img>
+                </td>
+                <td align="center"><center>
+                    <h1 style="color:#232b2b;">Cydog Tests</h1>
+                    <input name="date" type="text" align="center" readonly="readonly" style="width: 125px">
+                    <a href="javascript:window.print();" style="color:#FFFFFF;">Print Results</a>
+                </td>
+            </tr>
+             <tr>
+                <td>IP Address: </td>
+                <td><p id="gfg" style="color:#9af58b;"></p></td>
+            </tr>
+            <tr>
+                <td>Browser Type: </td>
+                <td><input name="browserkind" type="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+            <tr>
+                <td>Browsing Engine: </td>
+                <td><input name="browserengine" type="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+             <tr>
+                <td>Platform: </td>
+                <td><input name="platform" type="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+            <tr>
+                <td>User Agent: </td>
+                <td><input name="useragent" type="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+            <tr>
+                <td>Operating System: </td>
+                <td><input name="os" type="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+             <tr>
+                <td>Language: </td>
+                <td><input name="language" TYPE="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+             <tr>
+                <td>Adblocker: </td>
+                <td><input name="adblock" TYPE="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+             <tr>
+                <td>Size (Inner): </td>
+                <td><input name="inner" TYPE="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+             <tr>
+                <td>Size (Outer): </td>
+                <td><input name="outer" TYPE="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+             <tr>
+                <td>Cookie Check: </td>
+                <td><input name="cookie" TYPE="text" style="width: 300px" readonly="readonly"></td>
+            </tr>
+    </table>
+</form>
+
+<script language="JavaScript" type="text/javascript">
+    today = new Date(); 
+    document.output.date.value = today.toLocaleString(); 
+    document.output.browserkind.value = navigator.appName; 
+    document.output.browserengine.value = navigator.appCodeName; 
+    document.output.os.value = navigator.appVersion; 
+    document.output.language.value = navigator.language; 
+    document.output.platform.value = navigator.platform;
+    document.output.useragent.value = navigator.userAgent;
+    document.output.inner.value = window.innerWidth + "x" + window.innerHeight;
+    document.output.outer.value = window.outerWidth + "x" + window.outerHeight;
+
+</script>
+
+<script>
+if (navigator.cookieEnabled) {
+    document.output.cookie.value = "Cookies enabled";
+} else 
+{
+    document.output.cookie.value = "Cookies not enabled";
+}
+</script>
+
+<script>
+    $.getJSON("https://api.ipify.org?format=json",function(data) {
+        $("#gfg").html(data.ip);
+    })
+</script>
+
+<script>
+// Credits: https://jonathanmh.com/how-to-detect-ad-blockers-adblock-ublock-etc/
+window.addEventListener("load", function () {
+  let testReq = new Request(
+    "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+    {
+      method: "HEAD",
+      mode: "no-cors"
+    }
+  );
+ 
+fetch(testReq).then(response => {
+    document.output.adblock.value = "Not detected";
+  }).catch(error => {
+    document.output.adblock.value = "Detected";
+  });
+});
+</script>
+
+<script>
+    alert("Some tests on this page require internet, as they use third-party services to resolve information. Cydog Tests has been developed to do so only where minimally necessary.");
+</script>
+
+</body>
+
+</html>
+
+
