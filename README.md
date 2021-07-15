@@ -7,7 +7,7 @@ A Lightweight, fast, and secure browser for the minimalist trying to get things 
 - [Amazon Store](https://www.amazon.com/Curated-News-Cydog-Browser/dp/B091G1XPBW/ref=sr_1_1?dchild=1&keywords=Cydog+browser&qid=1618622687&s=mobile-apps&sr=1-1)
 - [iOS, iPad, and MacBook](https://apps.apple.com/us/app/cydog-browser/id1563014942?mt=12)
 - [Our Website](https://cydogbrowser.com)
-- [New 🚀: Cydog Intensifies](https://cydogbrowser.com/CydogIntensifies.html)
+- [New 🚀: Cydog Intensifies](https://cydogbrowser.com/cydogintensifies.html)
 - [New 🚀: Cydog Toolkit for Firefox](https://addons.mozilla.org/en-US/firefox/addon/cydog-toolkit/)
 - [New 🚀: Cydog Toolkit for Safari](https://apps.apple.com/us/app/cydog-toolkit/id1564679714?mt=12)
 - [New 🚀: Cydog Toolkit for Chrome](https://chrome.google.com/webstore/detail/cydog-toolkit/ibhpnkdhocnpbfdbgdihikhapmigokdn?utm_source=chrome-ntp-icon)
