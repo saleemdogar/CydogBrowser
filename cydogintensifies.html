@@ -50,7 +50,14 @@ This credit MUST stay intact for use
     function randomlink(link){
     window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]+link;
     }
-
+    function qurySearch() {
+            const query = window.location.search
+            if(query&&query.includes("?q=")){
+                const paramList = query.split("?q=");
+                if(paramList[paramList.length-1] !=="")
+                    randomlink(paramList[paramList.length-1])
+            }
+        }
    </script>
 
 </head>
@@ -60,7 +67,8 @@ This credit MUST stay intact for use
     onselectstart = "return false"
     oncontextmenu = "return false"
     onselect = "document.selection.empty()"
-    oncopy = "document.selection.empty()">
+    oncopy = "document.selection.empty()"
+    onload="qurySearch()">
 
 <div class="container" style="margin-top: 8%;">
 <div class="col-md-6 col-md-offset-3">
